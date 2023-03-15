@@ -1,0 +1,100 @@
+<h1>Список моих фильмов</h1>
+
+<style>
+    body {
+        height: 100vh;
+        overflow-y: hidden;
+        background: linear-gradient(180deg, #EB3349, #F45C43);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .films-block {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        width: 400px;
+        margin: 0 auto;
+        height: 50px;
+        line-height: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    a:hover {
+        background-color: black;
+        color: white;
+        transition: all 500ms ease;
+        -webkit-box-shadow: 5px 5px 5px 2px rgba(140, 0, 255, 0.6);
+      -moz-box-shadow: 5px 5px 5px 2px rgba(140, 0, 255, 0.6);
+      box-shadow: 5px 5px 5px 2px rgba(0, 255, 246, 0.6);
+    }
+</style>
+
+<div class="films-block">
+  <div class="film">
+    <img
+      src="https://thumbs.dfs.ivi.ru/storage33/contents/b/e/d58beace7518f0523371a0a115bcb3.jpg"
+      alt="social network"
+      width="250px"
+      height="400px"
+    />
+    <h2>{{film1}}</h2>
+  </div>
+  <div class="film">
+    <img
+      src="https://restoran.kg/neofiles/serve/5c414a711b42a76c3de49294"
+      alt="social network"
+      width="250px"
+      height="400px"
+    />
+    <h2>{{film2}}</h2>
+  </div>
+  <div class="film">
+    <img
+      src="https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/388f0e26-d1bc-4468-bc19-263b5d25f87b/300x450"
+      alt="social network"
+      width="250px"
+      height="400px"
+    />
+    <h2>{{film3}}</h2>
+  </div>
+  <div class="film">
+    <img
+      src="https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/d2c7baa3-25da-407d-88ca-c640e2d0790a/300x450"
+      alt="social network"
+      width="250px"
+      height="400px"
+    />
+    <h2>{{film4}}</h2>
+  </div>
+  <div class="film">
+    <img
+      src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/28af0c62-b199-4dce-a2dd-b419796bd21a/600x900"
+      alt="social network"
+      width="250px"
+      height="400px"
+    />
+    <h2>{{film5}}</h2>
+  </div>
+</div>
+
+<a href="/">Вернуться на главную страницу</a>
